@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Amazing Portfolio</title>
+    <title>Niel's Portfolio - UX/UI Designer, Developer & Data Analyst</title>
     <style>
         * {
             margin: 0;
@@ -13,7 +13,7 @@
 
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
             color: white;
             overflow-x: hidden;
         }
@@ -39,16 +39,16 @@
             position: fixed;
             top: 0;
             width: 100%;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(15, 15, 35, 0.3);
             backdrop-filter: blur(10px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
             z-index: 1000;
             padding: 1rem 2rem;
             transition: all 0.3s ease;
         }
 
         .navbar.scrolled {
-            background: rgba(0, 0, 0, 0.3);
+            background: rgba(0, 0, 0, 0.5);
         }
 
         .nav-content {
@@ -62,7 +62,7 @@
         .logo {
             font-size: 1.5rem;
             font-weight: 700;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            background: linear-gradient(45deg, #00d4ff, #ff00dc, #7c3aed);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -92,7 +92,7 @@
             left: 0;
             width: 0;
             height: 2px;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            background: linear-gradient(45deg, #00d4ff, #ff00dc);
             transition: width 0.3s ease;
         }
 
@@ -118,7 +118,7 @@
 
         .shape {
             position: absolute;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(0, 212, 255, 0.1);
             border-radius: 50%;
             animation: float 6s ease-in-out infinite;
         }
@@ -144,7 +144,7 @@
             font-size: 4rem;
             font-weight: 700;
             margin-bottom: 1rem;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
+            background: linear-gradient(45deg, #00d4ff, #ff00dc, #7c3aed, #10b981);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -167,14 +167,14 @@
         .cta-button {
             display: inline-block;
             padding: 1rem 2rem;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            background: linear-gradient(45deg, #00d4ff, #ff00dc);
             color: white;
             text-decoration: none;
             border-radius: 50px;
             font-weight: 600;
             font-size: 1.1rem;
             transition: all 0.3s ease;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             position: relative;
             overflow: hidden;
         }
@@ -209,7 +209,7 @@
             font-size: 3rem;
             text-align: center;
             margin-bottom: 3rem;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            background: linear-gradient(45deg, #00d4ff, #ff00dc);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -226,13 +226,13 @@
             width: 300px;
             height: 300px;
             border-radius: 20px;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            background: linear-gradient(45deg, #00d4ff, #ff00dc);
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 6rem;
             margin: 0 auto;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
             transition: transform 0.3s ease;
         }
 
@@ -254,25 +254,26 @@
         }
 
         .skill-card {
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(15, 15, 35, 0.4);
             backdrop-filter: blur(10px);
             border-radius: 20px;
             padding: 2rem;
             text-align: center;
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(0, 212, 255, 0.2);
             transition: all 0.3s ease;
         }
 
         .skill-card:hover {
             transform: translateY(-10px);
-            background: rgba(255, 255, 255, 0.15);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            background: rgba(15, 15, 35, 0.6);
+            box-shadow: 0 20px 40px rgba(0, 212, 255, 0.2);
+            border: 1px solid rgba(0, 212, 255, 0.4);
         }
 
         .skill-icon {
             font-size: 3rem;
             margin-bottom: 1rem;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            background: linear-gradient(45deg, #00d4ff, #ff00dc);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -286,22 +287,23 @@
         }
 
         .project-card {
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(15, 15, 35, 0.4);
             backdrop-filter: blur(10px);
             border-radius: 20px;
             overflow: hidden;
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 0, 220, 0.2);
             transition: all 0.3s ease;
         }
 
         .project-card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 25px 50px rgba(255, 0, 220, 0.2);
+            border: 1px solid rgba(255, 0, 220, 0.4);
         }
 
         .project-image {
             height: 200px;
-            background: linear-gradient(45deg, #667eea, #764ba2);
+            background: linear-gradient(45deg, #0f0f23, #1a1a2e);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -316,19 +318,19 @@
         .project-content h3 {
             font-size: 1.5rem;
             margin-bottom: 1rem;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            background: linear-gradient(45deg, #00d4ff, #ff00dc);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
 
         .contact {
-            background: rgba(0, 0, 0, 0.2);
+            background: rgba(15, 15, 35, 0.6);
             border-radius: 30px;
             padding: 3rem;
             text-align: center;
             backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(0, 212, 255, 0.2);
         }
 
         .contact-links {
@@ -344,17 +346,19 @@
             align-items: center;
             gap: 0.5rem;
             padding: 1rem 2rem;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(15, 15, 35, 0.4);
             border-radius: 50px;
             text-decoration: none;
             color: white;
             transition: all 0.3s ease;
             backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 0, 220, 0.2);
         }
 
         .contact-link:hover {
-            background: rgba(255, 255, 255, 0.2);
+            background: rgba(255, 0, 220, 0.2);
             transform: translateY(-3px);
+            border: 1px solid rgba(255, 0, 220, 0.4);
         }
 
         .scroll-indicator {
@@ -362,7 +366,7 @@
             top: 0;
             left: 0;
             height: 4px;
-            background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+            background: linear-gradient(90deg, #00d4ff, #ff00dc);
             z-index: 9999;
             transition: width 0.1s ease;
         }
@@ -386,6 +390,13 @@
             opacity: 1;
             transform: translateY(0);
         }
+        .profile-pic {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
     </style>
 </head>
 <body>
@@ -394,7 +405,7 @@
     
     <nav class="navbar">
         <div class="nav-content">
-            <div class="logo">Portfolio</div>
+            <div class="logo">Niel's Portfolio</div>
             <div class="nav-links">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
@@ -422,7 +433,9 @@
     <section id="about" class="section fade-in">
         <h2>About Me</h2>
         <div class="about-grid">
-            <div class="about-image">👨‍💻</div>
+            <div class="about-image">
+                <img src="./pogi.jpg" alt="Photo of me" class="profile-pic">
+            </div>
             <div class="about-text">
                 <p>I'm a passionate UX/UI designer and full-stack developer with a strong background in data analysis. I love creating beautiful, user-centered digital experiences backed by data-driven insights. With expertise spanning design, development, and analytics, I bring a unique perspective to every project.</p>
                 <p>When I'm not designing interfaces or analyzing user behavior data, you'll find me exploring new design tools, experimenting with data visualization techniques, or diving deep into user research to uncover meaningful insights.</p>
